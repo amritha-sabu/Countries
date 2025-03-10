@@ -13,7 +13,7 @@ const Countries = () => {
                 setCountries(data);
                 console.log(data);
             }catch(err){
-                console.error(err);
+                console.error("Error fetching data:",err);
             }
         }
         fetchCountries();
